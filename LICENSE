@@ -1,0 +1,15 @@
+The data and code in this repository is licensed under multiple licenses.
+
+- All R code in the /R directory and C++ code in the /src directory is licensed under the 'GNU General Public License v3 (GPL-3)'.
+
+- /data/LondonHPI.rda is licensed under the 'Open Government License for public sector information - version 3.0'.
+  See http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/.
+  UK HPI data published by Land Registry (c) Crown copyright 2016.
+  https://www.gov.uk/government/publications/about-the-uk-house-price-index/about-the-uk-house-price-index#republishing-data
+
+- /data/Hohenpeissenberg.rda, according to "Verordnung zur Festlegung der Nutzungsbestimmungen für die Bereitstellung von Geodaten des Bundes (GeoNutzV)"
+  can be used without restrictions.
+  Copyright:(c) Deutscher Wetterdienst
+  See: ftp://ftp-cdc.dwd.de/pub/CDC/Nutzungsbedingungen_German.txt
+
+- /data/FTSE100.rda

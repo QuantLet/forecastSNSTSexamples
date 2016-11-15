@@ -1,0 +1,22 @@
+Package: forecastSNSTSexamples
+Title: Data Examples for the R Package 'forecastSNSTS'
+Version: 1.0-0
+Authors@R: c(person("Tobias", "Kley", email = "t.kley@lse.ac.uk", role = c("aut", "cre")),
+             person("Philip", "Preuss", email = "philip.preuss@rub.de", role = c("aut")),
+             person("Piotr", "Fryzlewicz", email = "p.fryzlewicz@lse.ac.uk", role = c("aut")))
+Description: Three demos that replicate the data analysis examples from Section
+    5 of "Predictive, finite-sample model choice for time series under stationarity
+    and non-stationarity" by the authors of the package.
+Depends:
+    R (>= 3.2.3)
+Imports:
+    forecastSNSTS, zoo, forecast
+License: file LICENSE
+URL: http://github.com/tobiaskley/forecastSNSTSexamples
+BugReports: http://github.com/tobiaskley/forecastSNSTSexamples/issues
+Encoding: UTF-8
+LazyData: true
+Collate:
+    'data.R'
+    'forecastSNSTS-package.R'
+RoxygenNote: 5.0.1
