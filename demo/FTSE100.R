@@ -25,10 +25,10 @@ H <- 5
 m <- 15
 
 ## from which we obtain the end indices of the four sets
-m0 <- L - 3*m # 423
-m1 <- L - 2*m # 438
-m2 <- L - m   # 453
-m3 <- L       # 468
+m0 <- L - 3*m # 461
+m1 <- L - 2*m # 476
+m2 <- L - m   # 491
+m3 <- L       # 506
 
 ## We could show the observations from the 
 # Y.norm[(m0+1):m1] # final part of the training set,
@@ -56,19 +56,19 @@ for (h in 1:H) {
   res_e[h, 5] <- min(M[h, , N != 0 & N >= N_min])
 }
 
-## Top rows from Table 7 in Kley et al (2016)
+## Top rows from Table 7 in Kley et al (2017)
 res_e
 
 ## compute the MSPE of the null predictor
 vr <- sum(Y.norm[(m0 + 1):m1]^2) / (m1 - m0)
 
-## Top plot from Figure 8 in Kley et al (2016)
+## Top plot from Figure 8 in Kley et al (2017)
 plot(mspe, N_min = N_min, h = 1, add.for.legend=20)
 
-## Middle plot from Figure 8 in Kley et al (2016)
+## Middle plot from Figure 8 in Kley et al (2017)
 plot(mspe, N_min = N_min, h = 2, add.for.legend=20)
 
-## Bottom plot from Figure 8 in Kley et al (2016)
+## Bottom plot from Figure 8 in Kley et al (2017)
 plot(mspe, N_min = N_min, h = 3, add.for.legend=20)
 
 ## compute MSPE on the validation set 
@@ -101,5 +101,5 @@ for (h in 1:H) {
   res_t[h, 3] <- res_t[h, 1] / res_t[h, 2]
 }
 
-## Bottom rows from Table 7 in Kley et al (2016)
+## Bottom rows from Table 7 in Kley et al (2017)
 cbind(res_v, res_t)

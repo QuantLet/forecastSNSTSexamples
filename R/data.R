@@ -36,7 +36,7 @@
 NULL
 
 ################################################################################
-#' Financial Times Stock Exchange 100 Index, 01.01.2015--04.11.2016
+#' Financial Times Stock Exchange 100 Index, 01.01.2015--30.12.2016
 #'
 #' Share index of 100 companies listed on the London Stock Exchange with the
 #' highest market capitalisation. The first series contains the opening prices,
@@ -44,14 +44,17 @@ NULL
 #'
 #' The data was downloaded from Finanzen.net on 4 November 2016.
 #'
-#' @format A bivariate time series with 468 observations; a \code{zoo} object
+#' @format A bivariate time series with 506 observations; a \code{zoo} object
 #'
 #' @name data-FTSE100
 #' @aliases FTSE100
 #' @docType data
 #'
-#' @references Obtained from Finanzen.net on 4 November 2016
-#' \url{http://www.finanzen.net/index/FTSE_100/Historisch}
+#' @references Obtained from Finanzen.net on 12 January 2017
+#' \url{http://www.finanzen.net/index/FTSE_100/Historisch}.
+#' Further, the data for 18 November 2016 to 30 November 2016 was faulty and
+#' therefore replaced by data obtained from Google Finance
+#' \url{http://www.google.co.uk/finance/historical?q=INDEX%20FTSE}.
 #' 
 #' Further information on the index
 #' \url{https://en.wikipedia.org/wiki/FTSE_100_Index}

@@ -5,7 +5,7 @@ NULL
 #' Data examples for the R package 'forecastSNSTS'
 #'
 #' Three demos that replicate the data analysis examples from Section 5 of
-#' Kley et al (2016).
+#' Kley et al (2017).
 #'
 #' @details
 #'  \tabular{ll}{
@@ -25,7 +25,7 @@ NULL
 #' @import forecastSNSTS
 #'
 #' @references
-#' Kley, T., Preuss, P. & Fryzlewicz, P. (2016).
+#' Kley, T., Preuss, P. & Fryzlewicz, P. (2017).
 #' Predictive, finite-sample model choice for time series under stationarity and non-stationarity.
 #' [cf. \url{https://arxiv.org/abs/1611.04460}]
 #'

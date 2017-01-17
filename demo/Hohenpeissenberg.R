@@ -62,19 +62,19 @@ for (h in 1:H) {
   res_e[h, 5] <- min(M[h, , N != 0 & N >= N_min])
 }
 
-## Top rows from Table 6 in Kley et al (2016)
+## Top rows from Table 6 in Kley et al (2017)
 res_e
 
 ## compute the MSPE of the null predictor
 vr <- sum(Y.norm[(m0 + 1):m1]^2) / (m1 - m0)
 
-## Top plot from Figure 6 in Kley et al (2016)
+## Top plot from Figure 6 in Kley et al (2017)
 plot(mspe, N_min = N_min, h = 1, add.for.legend=200)
 ## vr in previous plot not shown, because substantially
 ## larger: plot with vr looks like this 
 plot(mspe, vr = vr, N_min = N_min, h = 1, add.for.legend=200)
 
-## Bottom plot from Figure 6 in Kley et al (2016)
+## Bottom plot from Figure 6 in Kley et al (2017)
 plot(mspe, N_min = N_min, h = 2, add.for.legend=200)
 
 ## compute MSPE on the validation set 
@@ -107,5 +107,5 @@ for (h in 1:H) {
   res_t[h, 3] <- res_t[h, 1] / res_t[h, 2]
 }
 
-## Bottom rows from Table 6 in Kley et al (2016)
+## Bottom rows from Table 6 in Kley et al (2017)
 cbind(res_v, res_t)
