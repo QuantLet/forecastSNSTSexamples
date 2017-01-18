@@ -42,7 +42,11 @@ NULL
 #' highest market capitalisation. The first series contains the opening prices,
 #' the second series contains the closing prices.
 #'
-#' The data was downloaded from Finanzen.net on 4 November 2016.
+#' Obtained from Finanzen.net on 12 January 2017
+#' \url{http://www.finanzen.net/index/FTSE_100/Historisch}.
+#' Further, the data for 18 November 2016 to 30 November 2016 was faulty and
+#' therefore replaced by data obtained from Google Finance
+#' \url{http://www.google.co.uk/finance/historical?q=INDEX\%20FTSE}.
 #'
 #' @format A bivariate time series with 506 observations; a \code{zoo} object
 #'
@@ -50,12 +54,7 @@ NULL
 #' @aliases FTSE100
 #' @docType data
 #'
-#' @references Obtained from Finanzen.net on 12 January 2017
-#' \url{http://www.finanzen.net/index/FTSE_100/Historisch}.
-#' Further, the data for 18 November 2016 to 30 November 2016 was faulty and
-#' therefore replaced by data obtained from Google Finance
-#' \url{http://www.google.co.uk/finance/historical?q=INDEX%20FTSE}.
-#' 
+#' @references
 #' Further information on the index
 #' \url{https://en.wikipedia.org/wiki/FTSE_100_Index}
 #' 

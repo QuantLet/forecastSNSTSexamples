@@ -11,8 +11,8 @@ NULL
 #'  \tabular{ll}{
 #'    \cr Package: \tab forecastSNSTSexamples
 #'    \cr Type:    \tab Package
-#'    \cr Version: \tab 1.0-0
-#'    \cr Date:    \tab 2016-11-15
+#'    \cr Version: \tab 1.1-0
+#'    \cr Date:    \tab 2017-01-18
 #'    \cr License: \tab GPL (>= 2) (for R code),
 #'    \cr          \tab Open Government License (for data set)
 #'  }
