@@ -9,6 +9,7 @@ The aim of the `forecastSNSTS` package is to distribute the data and R code to r
 [Predictive, finite-sample model choice for time series under stationarity and non-stationarity (2017/06/03)](http://personal.lse.ac.uk/kley/forecastSNSTS.pdf)
 
 Older version of the package can be used to replicate the examples in older versions of the paper. In particular, version 1.1-0 can be used to replicate the examples in
+
 [Predictive, finite-sample model choice for time series under stationarity and non-stationarity (2016/11/15)](https://arxiv.org/abs/1611.04460) 
 
 ## Replicating the examples
