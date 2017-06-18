@@ -2,21 +2,18 @@
 % Please edit documentation in R/data.R
 \docType{data}
 \name{data-FTSE100}
-\alias{FTSE100}
 \alias{data-FTSE100}
-\title{Financial Times Stock Exchange 100 Index, 01.01.2015--30.12.2016}
-\format{A bivariate time series with 506 observations; a \code{zoo} object}
+\alias{FTSE100}
+\title{Financial Times Stock Exchange 100 Index, 01.01.2015--26.05.2017}
+\format{A bivariate time series with 607 observations; a \code{zoo} object}
 \description{
 Share index of 100 companies listed on the London Stock Exchange with the
 highest market capitalisation. The first series contains the opening prices,
 the second series contains the closing prices.
 }
 \details{
-Obtained from Finanzen.net on 12 January 2017
+Obtained from Finanzen.net on 29 May 2017
 \url{http://www.finanzen.net/index/FTSE_100/Historisch}.
-Further, the data for 18 November 2016 to 30 November 2016 was faulty and
-therefore replaced by data obtained from Google Finance
-\url{http://www.google.co.uk/finance/historical?q=INDEX\%20FTSE}.
 }
 \examples{
 FTSE100_open <- FTSE100[,1]
@@ -33,4 +30,3 @@ Further information on the index
 \url{https://en.wikipedia.org/wiki/FTSE_100_Index}
 }
 \keyword{data}
-

@@ -2,10 +2,10 @@
 % Please edit documentation in R/data.R
 \docType{data}
 \name{data-Hohenpeissenberg}
-\alias{Hohenpeissenberg}
 \alias{data-Hohenpeissenberg}
-\title{Daily air temperatures, collected in Hohenpeissenberg, 1985--2015}
-\format{A univariate time series with 11315 observations; a \code{ts} object}
+\alias{Hohenpeissenberg}
+\title{Daily air temperatures, collected in Hohenpeissenberg, 1985--2016}
+\format{A univariate time series with 11680 observations; a \code{ts} object}
 \description{
 The station of Hohenpeissenberg is located in Germany, Brandenburg.
 Its location is 977m (elevation), 47.8009 (latitude) and 11.0109 (longitude).
@@ -34,4 +34,3 @@ Obtained from Deutscher Wetterdienst
 \url{http://www.dwd.de/DE/klimaumwelt/cdc/cdc_node.html}
 }
 \keyword{data}
-

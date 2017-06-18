@@ -17,7 +17,7 @@ p_max <- 18
 
 ## (2) the set of potential segment lengths \mathcal{N};
 ##     i.e., which N to compute the predictions for
-Ns <- c(0,seq(min(p_max+1, ceiling((L/2)^(4/5))), ceiling(L^(4/5))))
+Ns <- c(0,seq(50, ceiling(L^(4/5))))
 
 ## (3) the maximum forecasting horizon
 H <- 6
@@ -27,10 +27,10 @@ H <- 6
 m <- 12
 
 ## from which we obtain the end indices of the four sets
-m0 <- L - 3*m # 215
-m1 <- L - 2*m # 227
-m2 <- L - m   # 239
-m3 <- L       # 251
+m0 <- L - 3*m # 227
+m1 <- L - 2*m # 239
+m2 <- L - m   # 251
+m3 <- L       # 263
 
 ## We could show the observations from the 
 # LondonHPI_adj[(m0+1):m1] # final part of the training set,

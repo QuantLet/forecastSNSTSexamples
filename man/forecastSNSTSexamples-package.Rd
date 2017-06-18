@@ -2,8 +2,8 @@
 % Please edit documentation in R/forecastSNSTS-package.R
 \docType{package}
 \name{forecastSNSTSexamples-package}
-\alias{forecastSNSTSexamples}
 \alias{forecastSNSTSexamples-package}
+\alias{forecastSNSTSexamples}
 \title{Data examples for the R package 'forecastSNSTS'}
 \description{
 Three demos that replicate the data analysis examples from Section 5 of
@@ -19,12 +19,11 @@ Kley et al (2017).
    \cr          \tab Open Government License (for data set)
  }
 }
-\author{
-Tobias Kley
-}
 \references{
 Kley, T., Preuss, P. & Fryzlewicz, P. (2017).
 Predictive, finite-sample model choice for time series under stationarity and non-stationarity.
 [cf. \url{https://arxiv.org/abs/1611.04460}]
 }
-
+\author{
+Tobias Kley
+}

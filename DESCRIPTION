@@ -1,6 +1,6 @@
 Package: forecastSNSTSexamples
 Title: Data Examples for the R Package 'forecastSNSTS'
-Version: 1.1-0
+Version: 1.2-0
 Authors@R: c(person("Tobias", "Kley", email = "t.kley@lse.ac.uk", role = c("aut", "cre")),
              person("Philip", "Preuss", email = "philip.preuss@rub.de", role = c("aut")),
              person("Piotr", "Fryzlewicz", email = "p.fryzlewicz@lse.ac.uk", role = c("aut")))
@@ -19,4 +19,4 @@ LazyData: true
 Collate:
     'data.R'
     'forecastSNSTS-package.R'
-RoxygenNote: 5.0.1
+RoxygenNote: 6.0.1

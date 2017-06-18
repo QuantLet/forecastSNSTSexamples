@@ -6,7 +6,10 @@ Data examples for the R package 'forecastSNSTS'
 
 The aim of the `forecastSNSTS` package is to distribute the data and R code to replicate the empirical examples form Section 5 in the following paper (click to open):
 
-[Predictive, finite-sample model choice for time series under stationarity and non-stationarity](https://arxiv.org/abs/1611.04460) 
+[Predictive, finite-sample model choice for time series under stationarity and non-stationarity (2017/06/03)](http://personal.lse.ac.uk/kley/forecastSNSTS.pdf)
+
+Older version of the package can be used to replicate the examples in older versions of the paper. In particular, version 1.1-0 can be used to replicate the examples in
+[Predictive, finite-sample model choice for time series under stationarity and non-stationarity (2016/11/15)](https://arxiv.org/abs/1611.04460) 
 
 ## Replicating the examples
 
@@ -14,10 +17,15 @@ First, if you have not done so already, install R from http://www.r-project.org 
 
  ```
  install.packages("devtools")
- devtools::install_github("tobiaskley/forecastSNSTSexamples", ref="develop")
+ devtools::install_github("tobiaskley/forecastSNSTSexamples")
  ```
 
 This will first install the R package ``devtools`` and then use it to install the latest (development) version of ``forecastSNSTSexamples`` from the GitHub repository.
+
+If you want to install an older version of the examples you can, for example, call
+ ```
+ devtools::install_github("tobiaskley/forecastSNSTSexamples", ref="v1.1-0")
+ ```
 
 Now that you have R and ``forecastSNSTSexamples`` installed you can load the package and access the help files:
 

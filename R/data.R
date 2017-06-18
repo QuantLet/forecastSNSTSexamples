@@ -1,17 +1,17 @@
 ################################################################################
-#' London Housing Price Index, 1995--2015
+#' London Housing Price Index, 1995--2016
 #'
-#' Contains 252 monthly index values for the years 1995--2015 of the UK Housing
+#' Contains 252 monthly index values for the years 1995--2016 of the UK Housing
 #' price index for London.
 #'
 #' The data was downloaded from the 'UK House Price Index' website.
 #' 
 #' To retrieve the data: go to the `customise your search' part of the
 #' `search the UK house price index' form. There select the `English region'
-#' London, the period from 01-1995 to 12-2015, and obtained the `average price'
+#' London, the period from 01-1995 to 12-2016, and obtained the `average price'
 #' for `all property types'.
 #'
-#' @format A univariate time series with 252 observations; a \code{ts} object
+#' @format A univariate time series with 264 observations; a \code{ts} object
 #'
 #' @name data-LondonHPI
 #' @aliases LondonHPI
@@ -36,19 +36,16 @@
 NULL
 
 ################################################################################
-#' Financial Times Stock Exchange 100 Index, 01.01.2015--30.12.2016
+#' Financial Times Stock Exchange 100 Index, 01.01.2015--26.05.2017
 #'
 #' Share index of 100 companies listed on the London Stock Exchange with the
 #' highest market capitalisation. The first series contains the opening prices,
 #' the second series contains the closing prices.
 #'
-#' Obtained from Finanzen.net on 12 January 2017
+#' Obtained from Finanzen.net on 29 May 2017
 #' \url{http://www.finanzen.net/index/FTSE_100/Historisch}.
-#' Further, the data for 18 November 2016 to 30 November 2016 was faulty and
-#' therefore replaced by data obtained from Google Finance
-#' \url{http://www.google.co.uk/finance/historical?q=INDEX\%20FTSE}.
 #'
-#' @format A bivariate time series with 506 observations; a \code{zoo} object
+#' @format A bivariate time series with 607 observations; a \code{zoo} object
 #'
 #' @name data-FTSE100
 #' @aliases FTSE100
@@ -73,7 +70,7 @@ NULL
 NULL
 
 ################################################################################
-#' Daily air temperatures, collected in Hohenpeissenberg, 1985--2015
+#' Daily air temperatures, collected in Hohenpeissenberg, 1985--2016
 #'
 #' The station of Hohenpeissenberg is located in Germany, Brandenburg.
 #' Its location is 977m (elevation), 47.8009 (latitude) and 11.0109 (longitude).
@@ -82,7 +79,7 @@ NULL
 #' The observations for any 29 February were removed to have 365 observations
 #' per year. 
 #'
-#' @format A univariate time series with 11315 observations; a \code{ts} object
+#' @format A univariate time series with 11680 observations; a \code{ts} object
 #'
 #' @name data-Hohenpeissenberg
 #' @aliases Hohenpeissenberg

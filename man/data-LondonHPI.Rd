@@ -2,12 +2,12 @@
 % Please edit documentation in R/data.R
 \docType{data}
 \name{data-LondonHPI}
-\alias{LondonHPI}
 \alias{data-LondonHPI}
-\title{London Housing Price Index, 1995--2015}
-\format{A univariate time series with 252 observations; a \code{ts} object}
+\alias{LondonHPI}
+\title{London Housing Price Index, 1995--2016}
+\format{A univariate time series with 264 observations; a \code{ts} object}
 \description{
-Contains 252 monthly index values for the years 1995--2015 of the UK Housing
+Contains 252 monthly index values for the years 1995--2016 of the UK Housing
 price index for London.
 }
 \details{
@@ -15,7 +15,7 @@ The data was downloaded from the 'UK House Price Index' website.
 
 To retrieve the data: go to the `customise your search' part of the
 `search the UK house price index' form. There select the `English region'
-London, the period from 01-1995 to 12-2015, and obtained the `average price'
+London, the period from 01-1995 to 12-2016, and obtained the `average price'
 for `all property types'.
 }
 \examples{
@@ -35,4 +35,3 @@ UK House Price Index
 \url{http://landregistry.data.gov.uk/app/ukhpi}
 }
 \keyword{data}
-
